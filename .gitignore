@@ -1,2 +1,28 @@
-# Ignore all exe files 
+# Executables (Ejecutables compilados)
 *.exe
+*.out
+*.app
+
+# Compiled Object files (Archivos objeto temporales)
+*.o
+*.obj
+
+# Dynamic libraries (Librerías dinámicas y estáticas)
+*.a
+*.lib
+*.so
+*.dylib
+
+# Build directories (Carpetas comunes de compilación)
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+out/
+bin/
+
+# IDEs (Configuraciones de editores de código)
+.vscode/
+.vs/
+*.user
+*.suo
+CMakeLists.txt.user
